@@ -1,0 +1,1394 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+
+
+<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+
+<!--Bootstrap -->
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+
+<!--Custome Style -->
+
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+<link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+
+
+   
+
+
+<!-- Google-Font-->
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+
+
+</head>
+
+<body id="index1">
+
+
+
+
+
+<!--Header-->
+
+<header>
+
+
+
+  <div class="default-header">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-md-2">
+
+          <div class="logo"> <a href="index.html"><img src=" assets\images\logo new.png" style="width:100px;height:95px;" alt="image"/></a> </div>
+
+        </div>
+
+        <div class="col-sm-9 col-md-10">
+
+          <div class="header_info">
+
+            <div class="header_widgets">
+
+              
+
+              <p class="uppercase_text">For Support Mail us : </p>
+
+              <a href="mailto:info@example.com">info@example.com</a> </div>
+
+            <div class="header_widgets">
+
+              
+
+              <p class="uppercase_text">Service Helpline Call Us: </p>
+
+              <a href="tel:+923007645134">+923007645134</a> </div>
+
+            <div class="social-follow">
+
+              <ul>
+
+                <li><img src="assets/images/facebook.jpg" alt="image"/></li>
+
+                <li><img src="assets/images/twitter.jpg" alt="image"/></li>
+
+                <li><img src="assets/images/linkin.jpg" alt="image"/></li>
+
+                <li><img src="assets/images/insta.jpg" alt="image"/></li>
+
+              </ul>
+
+            </div>
+
+            <div class="login_btn"> <a href="form.html" class="btn btn-xs uppercase" data-bs-toggle="modal" data-bs-dismiss="modal">Login / Register</a> </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+
+ <!-- Navigation -->
+
+  <nav id="navigation_bar" class="navbar navbar-expand-lg">
+
+    <div class="container">
+
+	<div class="row header-row desktop">
+
+      <div class="navbar-header">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> </button>
+
+      </div>
+
+      
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="nav navbar-nav">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about-us.html">About Us</a></li>
+
+          <li><a href="listing-classic.html" >Inventory</a> </li>
+
+          <li ><a href="dealers-list.html">Dealers</a></li>
+
+          <li ><a href="#" id="dropdownMenuButton4" >Pages</a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="services.html">Services</a></li>
+
+              <li><a href="contact-us.html">Contact Us</a></li>
+
+              <li><a href="compare.html">Compare Vehicles</a></li>
+
+              <li><a href="faq.html">FAQ</a></li>
+
+            </ul>
+
+          </li>
+		  
+		  	  
+		  
+
+          <li><a href="blog-left-sidebar.html">News</a>
+
+          </li>
+
+        </ul>
+
+      </div>
+	  
+	  
+	  
+	  
+
+	  <div class="header_wrap">
+
+        <div >
+
+			<ul class="nav navbar-nav" > 
+			
+
+             <li><a href="#" id="dropdownMenuButton1"  data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/images/s.jpg" alt="image"/>Ahsan<img src="assets/images/arr_d.jpg" alt="image"/> </a>
+
+              <ul class="dropdown-menu" >
+
+                <li><a href="profile-settings.html">Profile Settings</a></li>
+
+                <li><a  href="blog-left-sidebar.html">My Vehicles</a></li>
+
+                <li><a href="blog-left-sidebar.html">Post a Vehicle</a></li>
+
+                <li><a href="#">Sign Out</a></ul></li>
+				
+				<div class="header_search">
+
+            <input type="text" placeholder="Search..." class="form-control">    
+
+        </div>
+          </ul>
+		
+        </div>     
+
+      </div>
+
+  </div>
+	</div>
+	
+  </nav>
+
+  <!-- Navigation end --> 
+
+  
+  
+
+</header>
+
+
+
+<!-- /Header --> 
+
+
+
+<!-- Banners -->
+
+<section class="banner-section">
+
+  <div class="container">
+
+    <div class="div_zindex">
+
+      <div class="row">
+
+	  <div class="col-md-7"></div>
+
+        <div class="col-md-5">
+
+          <div class="banner_content">
+
+            <h1>Find the right car for you.</h1>
+
+            <p>We have more than a thousand cars for you to choose. </p>
+
+            <a href="#" class="btn">Read More </a> </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- /Banners --> 
+
+
+
+<!-- Filter-Form -->
+
+<section id="filter_form" class="gray-bg">
+
+  <div class="container">
+
+    <h3>Find Your Dream Car <span>(Easy search from here)</span></h3>
+
+    
+
+      <form action="#" method="get">
+
+	  <div class="row">
+
+        <div class="form-group col-md-3 col-sm-6 black_input">
+
+          <div >
+
+            <select class="form-control">
+
+              <option value="">Select Location </option>
+
+              <option value="">PAKISTAN </option>
+
+              <option value="">USA </option>
+			  
+			  <option value="">CHINA </option>
+			  
+			  <option value="">INDIA </option>
+			  
+			  <option value="">UGANDA </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-3 col-sm-6 black_input">
+
+          <div class="select">
+
+            <select class="form-control">
+
+              <option>Select Brand</option>
+
+              <option>Audi</option>
+
+              <option>BMW</option>
+
+              <option>Nissan</option>
+
+              <option>Toyota</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-3 col-sm-6 black_input">
+
+          <div class="select">
+
+            <select class="form-control">
+
+              <option>Select Model</option>
+
+              <option>AWP 423</option>
+
+              <option>SWA 21</option>
+
+              <option>UYT 373</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-3 col-sm-6 black_input">
+
+          <div class="select">
+
+            <select class="form-control">
+
+              <option>Year of Model </option>
+			  
+			  <option>2023</option>
+
+              <option>2022</option>
+
+              <option>2021</option>
+
+              <option>2020</option>
+
+              <option>2019</option>
+			  
+			  <option>2018</option>
+
+              <option>2017</option>
+
+              <option>2016</option>
+
+              <option>2015</option>
+
+              <option>2014</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-6 col-sm-6 black_input">
+
+          <label class="form-label">Price Range ($)</label>
+
+          <input id="price_range" type="text" class="span2" value="" data-slider-min="50" data-slider-max="6000" data-slider-step="5" data-slider-value="[1000,5000]"/>
+
+        </div>
+
+        <div class="form-group col-md-3 col-sm-6 black_input">
+
+          <div class="select">
+
+            <select class="form-control">
+
+              <option>Type of Car </option>
+
+              <option>New Car</option>
+
+              <option>Used Car</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-3 col-sm-6">
+
+          <button type="submit" class="btn btn-block search">Search Car </button>
+
+        </div>
+
+		</div>
+
+      </form>
+
+    
+
+  </div>
+
+</section>
+
+<!-- /Filter-Form --> 
+
+
+
+<!-- About -->
+
+<br>
+<br>
+<br>
+<br>
+<section>
+
+  <div class="container">
+
+    <div class="section-header text-center">
+
+      <h2>Welcome <span>to CarForYou</span></h2>
+
+      <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport..</p>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-6">
+
+        <div class="looking-car">
+
+          <div class="looking-cat-image"> <img src=" assets\images\PhotoRoom-20221212_104521.png " style="height:300px;width:600px;" alt="Image" /> </div>
+
+          <div class="looking-car-content">
+
+            <h3>Looking <span>Used Car?</span></h3>
+
+            <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport.</p>
+
+            <a  class="btn">View Listing<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a> </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-sm-6">
+
+        <div class="looking-car">
+
+          <div class="looking-cat-image"> <img src=" assets\images\PhotoRoom-20221212_104557.png" style="height:300px;width:800px;" /> </div>
+
+          <div class="looking-car-content">
+
+            <h3>Looking <span>New Car?</span></h3>
+
+            <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport.</p>
+
+            <a  class="btn">View Listing<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a> </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- /About --> 
+
+
+
+<!-- Resent Cat-->
+
+<section class="section-padding gray-bg">
+
+  <div class="container">
+
+    <div class="section-header text-center">
+
+      <h2>Find the Best <span>CarForYou</span></h2>
+
+      <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport..</p>
+
+    </div>
+
+    <div class="row"> 
+
+      
+
+      <!-- Nav tabs -->
+
+      <div class="recent-tab">
+
+        <ul class="nav nav-tabs" id="myTab" >
+
+          <li class="nav-item" ><a class="btn"   href="index.html" >New Car</a></li>
+
+          <li class="nav-item" ><a class="btn"   href="index.html" >Use Car</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- Recently Listed New Cars -->
+
+      <div class="tab-content">
+
+        <div class="tab-pane fade show active" >
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\0 (5).png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare4">
+
+                    <label for="compare4">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">Ford Shelby GT350</a></h6>
+
+                <span class="price">$45,000</span> 
+
+              </div>
+
+              	<div class="inventory_info_m">
+
+	                <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. </p>
+
+                 </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\Lamborghini-Egoista_Concept_2013_800x600_wallpaper_04.png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare5">
+
+                    <label for="compare5">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">BMW 535i</a></h6>
+
+                <span class="price">$20,000</span> 
+
+              </div>
+
+              <div class="inventory_info_m">
+
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.</p>
+
+             </div>  
+
+            </div>
+
+          </div>
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\0 (10).png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare6">
+
+                    <label for="compare6">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">Volvo v40</a></h6>
+
+                <span class="price">$60,000</span> 
+
+             </div>
+
+             <div class="inventory_info_m">
+
+                <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. </p>
+
+             </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\0 (9).png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare7">
+
+                    <label for="compare7">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">Audi TT RS</a></h6>
+
+                <span class="price">$90,000</span> 
+
+              </div>
+
+              <div class="inventory_info_m">
+
+                 <p>Great explorer of the truth, the master-builder of human happiness.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\0 (17).png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare8">
+
+                    <label for="compare8">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">Audi A3</a></h6>
+
+                <span class="price">$49,000</span> 
+
+              </div>
+
+                <div class="inventory_info_m">
+
+                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+
+              </div> 
+
+            </div>
+
+          </div>
+
+          <div class="col-list-3">
+
+            <div class="recent-car-list">
+
+              <div class="car-info-box"> <a href="#"><img src=" assets\images\0 (2).png" class="img-fluid" alt=""></a>
+
+                <div class="compare_item">
+
+                  <div>
+
+                    <input type="checkbox" id="compare9">
+
+                    <label for="compare9">Compare</label>
+
+                  </div>
+
+                </div>
+
+                <ul>
+
+                  <li>20,000 km</li>
+
+                  <li>2005 Model</li>
+
+                  <li>Colorado, USA</li>
+
+                </ul>
+
+              </div>
+
+              <div class="car-title-m">
+
+                <h6><a href="#">BMW 535i</a></h6>
+
+                <span class="price">$20,000</span> 
+
+              </div>
+
+              <div class="inventory_info_m">
+
+                 <p>On the other hand, we denounce with righteous indignation and dislike.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- /Resent Cat --> 
+
+
+
+<!-- Fun Facts-->
+
+<section class="fun-facts-section">
+
+  <div class="container div_zindex">
+
+    <div class="row">
+
+      <div class="col-lg-3 col-xs-6 col-sm-3">
+
+        <div class="fun-facts-m">
+
+          <div class="cell">
+
+            <h2>40+</h2>
+
+            <p>Years In Business</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-xs-6 col-sm-3">
+
+        <div class="fun-facts-m">
+
+          <div class="cell">
+
+            <h2>1200+</h2>
+
+            <p>New Cars For Sale</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-xs-6 col-sm-3">
+
+        <div class="fun-facts-m">
+
+          <div class="cell">
+
+            <h2>1000+</h2>
+
+            <p>Used Cars For Sale</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-xs-6 col-sm-3">
+
+        <div class="fun-facts-m">
+
+          <div class="cell">
+
+            <h2>600+</h2>
+
+            <p>Satisfied Customers</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</section>
+
+<!-- /Fun Facts--> 
+
+
+
+<!--Featured Car-->
+
+<section class="section-padding">
+
+  <div class="container">
+
+    <div class="section-header text-center">
+
+      <h2>Featured  Cars <span>Special Offers</span></h2>
+
+      <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport.. </p>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-list-3">
+
+        <div class="featured-car-list">
+
+          <div class="featured-car-img"> <a href=""><img src="assets/images/featured-img-01.jpg" class="img-fluid" alt="Image"></a>
+
+            <div class="label_icon">New</div>
+
+            <div class="compare_item">
+
+              <div>
+
+                <input  type="checkbox" id="compare">
+
+                <label >Compare</label>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="featured-car-content">
+
+            <h6><a href="#">Maserati QUATTROPORTE 1,6</a></h6>
+
+            <div class="price_info">
+
+              <p class="featured-price">$90,000</p>
+
+              <div class="car-location"><span><i class="fa fa-map-marker" aria-hidden="true"></i> Colorado, USA</span></div>
+
+            </div>
+
+            <ul>
+
+              <li>0,000 km</li>
+
+              <li>30.000 miles</li>
+
+              <li>2005 model</li>
+
+              <li>Diesel</li>
+
+              <li>5 seats</li>
+
+              <li>143 kW</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-list-3">
+
+        <div class="featured-car-list">
+
+          <div class="featured-car-img"> <a href=""><img src="assets/images/featured-img-02.jpg" class="img-fluid" alt="Image"></a>
+
+            <div class="label_icon">Used</div>
+
+            <div class="compare_item">
+
+              <div>
+
+                <input type="checkbox" id="compare2">
+
+                <label for="compare2">Compare</label>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="featured-car-content">
+
+            <h6><a href="#">Mazda CX-5 SX, V6, ABS, Sunroof</a></h6>
+
+            <div class="price_info">
+
+              <p class="featured-price">$90,000</p>
+
+              <div class="car-location"><span><i class="fa fa-map-marker" aria-hidden="true"></i> Colorado, USA</span></div>
+
+            </div>
+
+            <ul>
+
+              <li>0,000 km</li>
+
+              <li>30.000 miles</li>
+
+              <li>2005 model</li>
+
+              <li>Diesel</li>
+
+              <li>5 seats</li>
+
+              <li>143 kW</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-list-3">
+
+        <div class="featured-car-list">
+
+          <div class="featured-car-img"> <a href=""><img src="assets/images/featured-img-03.jpg" class="img-fluid" alt="Image"></a>
+
+            <div class="label_icon">Used</div>
+
+            <div class="compare_item">
+
+              <div>
+
+                <input type="checkbox" id="compare3">
+
+                <label for="compare3">Compare</label>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="featured-car-content">
+
+            <h6><a href="#">BMW 535i</a></h6>
+
+            <div class="price_info">
+
+              <p class="featured-price">$90,000</p>
+
+              <div class="car-location"><span><i class="fa fa-map-marker" aria-hidden="true"></i> Colorado, USA</span></div>
+
+            </div>
+
+            <ul>
+
+              <li>0,000 km</li>
+
+              <li>30.000 miles</li>
+
+              <li>2005 model</li>
+
+              <li>Diesel</li>
+
+              <li>5 seats</li>
+
+              <li>143 kW</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- /Featured Car--> 
+
+
+
+
+
+<!--Testimonial -->
+
+<section class="section-padding testimonial-section parallex-bg">
+
+  <div class="container div_zindex">
+
+    <div class="section-header white-text text-center">
+
+      <h2>Our Satisfied <span>Customers</span></h2>
+
+      <p>Cars are the four-wheeler automobiles that are run for an individual or a small group of people, such as a family. It is a convenience in the modern world especially in places where the public transport is not easily available or is not very reliable. You can travel from your door to your destination in a state of comfort. With young children and pets, a car is a preferable mode of transport.. </p>
+
+    </div>
+
+    <div class="row">
+
+      <div >
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src="assets/images/testimonial-img-no-1.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Muhammad Ahsan</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src="assets/images/testimonial-img-no-6.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Sir Shahbaz</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src="assets/images/testimonial-img-no-2.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Fawwaz</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src="assets/images/testimonial-img-no-5.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Faraz Khaf</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src="assets/images/testimonial-img-no-4.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Sarmad</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+        <div class="testimonial-m">
+
+          <div class="testimonial-img"> <img src=" assets\images\testimonial-img-no-3.png" alt="images" /> </div>
+
+          <div class="testimonial-content">
+
+            <div class="testimonial-heading">
+
+              <h5>Obaid</h5>
+
+              <span class="client-designation">CEO of xzy company</span> </div>
+
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt .</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Dark Overlay-->
+
+  <div class="dark-overlay"></div>
+
+</section>
+
+<!-- /Testimonial--> 
+
+
+
+<!--Footer -->
+
+<footer>
+
+  <div class="footer-top">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6">
+
+          <h6>Top Categores</h6>
+
+          <ul>
+
+            <li><a href="#">Crossovers</a></li>
+
+            <li><a href="#">Hybrids</a></li>
+
+            <li><a href="#">Hybrid Cars</a></li>
+
+            <li><a href="#">Hybrid SUVs</a></li>
+
+            <li><a href="#">Concept Vehicles</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+
+          <h6>About Us</h6>
+
+          <ul>
+
+            <li><a href="#">Privacy</a></li>
+
+            <li><a href="#">Hybrid Cars</a></li>
+
+            <li><a href="#">Cookies</a></li>
+
+            <li><a href="#">Trademarks</a></li>
+
+            <li><a href="#">Terms of use</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+
+          <h6>Useful Links</h6>
+
+          <ul>
+
+            <li><a href="#">Our Partners</a></li>
+
+            <li><a href="#">Careers</a></li>
+
+            <li><a href="#">Sitemap</a></li>
+
+            <li><a href="#">Investors</a></li>
+
+            <li><a href="#">Request a Quote</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+
+          <h6>Subscribe Newsletter</h6>
+
+          <div class="newsletter-form">
+
+            <form>
+
+              <div class="form-group">
+
+                <input type="email" class="form-control newsletter-input" required placeholder="Enter Email Address" />
+
+              </div>
+
+              <button type="submit" class="btn btn-block">Subscribe</button>
+
+            </form>
+
+            <p class="subscribed-text">*We send great deals and latest auto news to our subscribed users every week.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container">
+
+      <div class="row">
+
+        
+
+        <div class="col-md-6">
+
+          <p class="copy-right">Copyright &copy; 2022 Auto Place.pk. All Rights Reserved</p>
+
+        </div>
+
+		<div class="col-md-6 text-right">
+
+          <div class="footer_widget">
+
+            <p>Download Our APP</p>
+
+
+
+          </div>
+
+          <div class="footer_widget">
+
+            <p>Connect with Us</p>
+
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- /Footer--> 
+
+
+
+<!--Back to top-->
+
+<div id="back-top" class="back-top"> <a href="#">Top</a> </div>
+
+<!--/Back to top--> 
+
+
+
+</body>
+
+</html>

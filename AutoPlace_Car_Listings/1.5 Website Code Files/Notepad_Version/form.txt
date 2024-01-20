@@ -1,0 +1,136 @@
+		
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+
+
+<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+
+<!--Bootstrap -->
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+
+<!--Custome Style -->
+
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+<link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+
+   
+
+
+<!-- Google-Font-->
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<!--Login-Form -->
+
+<div id="loginform">
+
+  <div class="modal-dialog modal-lg" >
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+
+        <a href="index.html"><button type="button" class="close" >&times;</button></a>
+
+        <h3 class="modal-title">Login</h3>
+
+      </div>
+
+      <div class="modal-body">
+
+        
+
+          <div class="login_wrap">
+
+		  <div class="row">
+
+            <div class="col-md-6 col-sm-6">
+
+              <form>
+
+                <div class="form-group">
+
+                  <input type="text" class="form-control" placeholder="Username or Email address*">
+
+                </div>
+
+                <div class="form-group">
+
+                  <input type="password" class="form-control" placeholder="Password*">
+
+                </div>
+
+                <div>
+
+                  <input type="checkbox" id="remember">
+
+                  <label for="remember">Remember Me</label>
+
+                </div><br>
+
+                <div>
+
+                  <input type="submit" value="Login" class="btn btn-block">
+
+                </div>
+
+              </form>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+
+              <h6 class="gray_text">Login the Quick Way</h6>
+
+              <a  class="btn btn-block ">Login with Facebook</a>
+			  <br>
+			  <a  class="btn btn-block ">Login with Twitter</a>
+			  <br>
+			  <a href="#" class="btn btn-block ">Login with Google</a> </div>
+
+            <div class="mid_divider"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="modal-footer text-center">
+
+        <p>Don't have an account? <a href="registerF.html" >Signup Here</a></p>
+
+        <p><a href="Fpass.html" >Forgot Password ?</a></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+<!--/Login-Form --> 
+
